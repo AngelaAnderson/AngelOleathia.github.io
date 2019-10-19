@@ -5,32 +5,35 @@
     <meta name="author" content="Angel Anderson">
     <meta name="keywords" content="ux design, web design, user survey, ui design ">
     <meta name="description" content="Showcasing the creative work of UX/UI Web Designer, Angel Oleathia Anderson.">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://use.typekit.net/mvj1djm.css">
   </head>
 
   <body>
   <div class="homepage">
 <!--Navigation Menu-->
+  <section id="hero" class="homepagehero">
     <header id="nav">
       <nav>
-        <ul>
-          <li><img src="/Assets/Icons/AO Logo White.svg" alt="Angel Oleathia Logo White" style="width:37px;height:37px;"></li>
-          <li><a href="#">ANGEL OLEATHIA</a></li>
-          <li><img src="/Assets/Icons/menu.svg" alt="Menu Icon" style="width:37px;height:37px;"></li>
-        </ul>
+        <svg class="MenuIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather
+        feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line
+        x1="3" y1="18" x2="21" y2="18"></line></svg>
       </nav>
     </header>
 
 
 <!--Hero Image and Info-->
     <main>
-      <section id="hero">
-        <img src="/Assets/Icons/AO Logo White.svg" alt="Angel Oleathia Logo White" style="width:219px;height:219px;">
-        <h1>ANGEL OLEATHIA</h1>
-        <p>My name is Angel Anderson and I am a UX/UI Designer located in Seattle, Washington.</p>
-        <h6 class="AboutDown, Scroll">About</h6>
-        <h6 class="WorkScrollRight, Scroll">Work</h6>
-      </section>
+        <div class="hero">
+          <img class="HeroImage" src="/Assets/Icons/AO Logo White.svg" alt="Angel Oleathia Logo White">
+          <h1>ANGEL OLEATHIA</h1>
+          <h3>My name is Angel Anderson and I am a UX/UI Designer located in Seattle, Washington.</h3>
+        </div>
+        <p class="AboutDown, Scroll">About</p>
+        <p class="WorkScrollRight, Scroll">Work</p>
+  </section>
   </div>
 
       <!--Biography-->
@@ -67,22 +70,35 @@
           <ul>
             <!--Email-->
             <li>
-              <img src="/Assets/Icons/mail.svg" alt="Angel Oleathia Email" class="socialicon">
+              <svg class="socialiconsm" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+              </path><polyline points="22,6 12,13 2,6"></polyline></svg>
               <h5>angel@angeloleathia.com</h5>
             <li>
             <!--Instagram-->
             <li>
-              <img src="/Assets/Icons/instagram.svg" alt="Angel Oleathia Instagram" class="socialicon">
+              <svg class="socialiconsm" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather
+              feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z">
+              </path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg>
               <h5>@angeloleathia</h5>
             <li>
             <!--LinkedIn-->
             <li>
-              <img src="/Assets/Icons/linkedin.svg" alt="Angel Oleathia LinkedIn" class="socialicon">
+              <svg class="socialiconsm" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4"
+              height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
               <h5>angelaoganderson</h5>
             <li>
             <!--Github-->
             <li>
-              <img src="/Assets/Icons/github.svg" alt="Angel Oleathia GitHub" class="socialicon">
+              <svg class="socialiconsm" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77
+              5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44
+              0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
               <h5>AngelaAnderson</h5>
             <li>
           </ul>
@@ -98,21 +114,21 @@
           <hr size="2px;" width="404px;" align="left">
           <div label="FW1">
             <h6 class="ResumeSubheading">Gabriel B. Taye Foundation | Web Designer</h6>
-            <p>
+            <p class="ResumeDetails">
               Designed website and integrated donation form to raise funds and awareness
               to support anti-bullying efforts in honor of the late Grabriel Taye.
             </p>
-            <p>
+            <p class="ResumeDetails">
               <a href="https://www.gabrielbtayefoundation.org">https://www.gabrielbtayefoundation.org</a>
             </p>
           </div>
           <div label="FW2">
             <h6 class="ResumeSubheading">Smoke & Ember BBQ | Web Designer</h6>
-            <p>
+            <p class="ResumeDetails">
               Digned landing page for an emaerging pop-up catering company,
               displaying key menu items and calendar of pop-up events.
             </p>
-            <p>
+            <p class="ResumeDetails">
               <a href="https://www.smokeandemberbbq.com ">https://www.smokeandemberbbq.com </a>
             </p>
           </div>
@@ -124,31 +140,31 @@
           <hr size="2px;" width="404px;" align="left">
           <div label="Experience 1">
             <h6 class="ResumeSubheading">Kitsap Humane Society | Marketing Assistant</h6>
-            <p>
+            <p class="ResumeDetails">
               Applied HTML, CSS, and jQuery skills to customize website donation page and
               integrate with new donor management system while adhering to the organization's
               style guide.  In addition, regularly wrote and posted to online blog and updated
               calendar of events via Wordpress.
             </p>
-            <p>
+            <p class="ResumeDetails">
                 <a href="https://www.kitsap-humane.org/donate/">https://www.kitsap-humane.org/donate/</a>
             </p>
           </div>
           <div label="Experience 2">
             <h6 class="ResumeSubheading">SD Planning Events | Marketing Intern</h6>
-            <p>
+            <p class="ResumeDetails">
               Designed company website, embedded intake forms, contracts, event packages,
               and invoices to gain online leads, book prospective clients, and maintain
               high client satisfaction. Also Studied and implemented Dubsado (CRM) system
               to more efficiently store and organize client files.
             </p>
-            <p>
+            <p class="ResumeDetails">
             <a href="https://www.sandiegoplanningevent.com">https://www.sandiegoplanningevent.com</a>
             </p>
           </div>
           <div label="Experience 3">
             <h6 class="ResumeSubheading">KPMG LLP | Recruiting & Audit CMI Intern </h6>
-            <p>
+            <p class="ResumeDetails">
               Gained valuable, transferable skills including writing nomination letters for
               one publicly honored employees on behalf of two KPMG partners, and creating simple
               to use MS Access database to make organization and retrieval of retired KPMG
@@ -162,13 +178,13 @@
           <hr size="2px;" width="404px;" align="left">
           <div label="Education 1">
             <h6 class="ResumeSubheading">Bloc.io | Oct 2019</h6>
-            <p>
+            <p class="ResumeDetails">
               Certificate in UX / UI Frontend Development
             </p>
           </div>
           <div label="Education 2">
             <h6 class="ResumeSubheading">San Diego State Univ | Dec 2018</h6>
-            <p>
+            <p class="ResumeDetails">
               BS in Marketing | Accounting<br>IMC Specilization
             </p>
           </div>
@@ -178,7 +194,7 @@
           <h2 class="ResumeHeading">Skills</h2>
           <hr size="2px;" width="404px;" align="left">
           <div label="SkillsList">
-            <p>
+            <p class="ResumeDetails">
               HTML 5 & CSS<br>jQuery & Javascript<br>Copywritting<br>User Research
               <br>UX/UI Design<br>GitHub<br>Figma<br>Sketch<br>Atom<br>Adobe InDesign
               <br>Adobe Illustrator<br>Photoshop<br>Wordpress<br>SPSS<br>Qualtircs
@@ -211,7 +227,7 @@
 
       <!--Contact Form-->
       <section id="contact">
-        <h2>Let's Connect</h2>
+        <h2 class="PageHeader">Let's Connect</h2>
         <div class="iframe">
           <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.14/iframeResizer.min.js"></script>
           <iframe src="https://hello.dubsado.com:443/public/form/view/5ce969bc6daa7f3ca3c5f4a2" frameborder="0" style="width:1px; min-width:100%;"></iframe>
@@ -221,25 +237,34 @@
     </main>
 
     <!--Footer-->
-    <footer id="footer">
+    <footer id="footer" class="footer">
+      <img src="/Assets/Icons/AO Logo White.svg" alt="Angel Oleathia Logo White" style="width:38px;height:38px;padding-top:4px;">
+      <p class="websiteaddress">angeloleathia.com</p>
       <ul>
         <li>
-          <img src="/Assets/Icons/AO Logo White.svg" alt="Angel Oleathia Logo White" style="width:8px;height:8px;">
+          <svg class="socialicon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+          </path><polyline points="22,6 12,13 2,6"></polyline></svg>
         </li>
         <li>
-          <p class="websiteaddress">angeloleathia.com</p>
+          <svg class="socialicon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather
+          feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z">
+          </path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg>
         </li>
         <li>
-          <img src="/Assets/Icons/mail.svg" alt="Angel Oleathia Email" class="socialiconsm">
+          <svg class="socialicon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4"
+          height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
         </li>
         <li>
-          <img src="/Assets/Icons/instagram.svg" alt="Angel Oleathia Instagram" class="socialiconsm">
-        </li>
-        <li>
-          <img src="/Assets/Icons/linkedin.svg" alt="Angel Oleathia LinkedIn" class="socialiconsm">
-        </li>
-        <li>
-          <img src="/Assets/Icons/github.svg" alt="Angel Oleathia GitHub" class="socialiconsm">
+          <svg class="socialicon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+          <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77
+          5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44
+          0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
         </li>
       </ul>
     </footer>

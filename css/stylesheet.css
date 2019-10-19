@@ -1,7 +1,135 @@
-.VerticalLine {
+/*Box Size*/
+*, *::before, *::after {
+   box-sizing: border-box;
+ }
+
+/*Typography and Font Size*/
+html{
+  font-size: 14px;
+  font-family: input-serif, serif;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 180%;
+  color: #313638;
+}
+h1{
+  font-family: termina, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  color:#FFFEFC;
+}
+h2{
+  font-family: termina, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+h3{
+  font-size: 26px;
+  font-family: input-serif, serif;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 180%;
+  width:900px;
+  color:#FFFEFC;
+  align-content: center;
+}
+h4{
+  font-family: termina, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+h5{
+  font-family: termina, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+.ResumeDetails{
+  font-size: 14px;
+}
+.ResumeSubheading{
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/*Icons & Logos*/
+.socialicon, .MenuIcon, .websiteaddress{
+  height: 24px;
+  stroke:#FFFEFC;
+  width: 24px;
+  color:#FFFEFC;
+  stroke-width: 1px;
+}
+
+.HeroImage{
+  width:220px;
+  height:220px;
+  margin-bottom:70px;
+  margin-top:5%;
+}
+.FooterLogo{
+  float: left;
+}
+/*Remove Bullet Points from UL*/
+ul{
+  list-style-type: none;
+}
+
+/*Header Design*/
+header{
+  display:flex;
+  justify-content:flex-end;
+  margin: 0 5% 5% 0;
+  padding-top: 2%;
+
+}
+li{
+  display: inline-block;
+  padding-right: 20px;
+  vertical-align: middle;
+}
+
+/*Homepage*/
+.hero{
+  display: block;
+  text-align: center;
+  padding-bottom: 300px;
+}
+.homepagehero{
+  background: linear-gradient(231.87deg, #F3E9DC -75.26%, rgba(103, 111, 143, 0.89) 50.72%, #F3E9DC 178.06%);;
+}
+
+
+/*About Page*/
+.Biography{
+  width: 564px;
+}
+.FreelanceWork, .Experience, .Education, .Skills{
+  width: 413px;
+}
+.accounting, .marketing{
+  width:418px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+/*Project Pages*/
+ .VerticalLine {
   border-left: thick solid #ff0000;
 }
 .ProjectCoverPhoto{
   width: 460px;
   height:310px;
+}
+
+/*Footer*/
+.footer{
+  background-color: #676F8F;
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 5% 0 5%;
+  vertical-align: middle;
 }
