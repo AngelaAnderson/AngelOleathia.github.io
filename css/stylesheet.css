@@ -5,7 +5,7 @@
 
 /*Typography and Font Size*/
 html{
-  font-size: 14px;
+  font-size: 12px;
   font-family: input-serif, serif;
   font-weight: 200;
   font-style: normal;
@@ -19,6 +19,9 @@ h1{
   font-size: 36px;
   color:#FFFEFC;
 }
+.PageHeader{
+  text-align: center;
+}
 h2{
   font-family: termina, sans-serif;
   font-weight: 400;
@@ -31,9 +34,7 @@ h3{
   font-weight: 200;
   font-style: normal;
   line-height: 180%;
-  width:900px;
   color:#FFFEFC;
-  align-content: center;
 }
 h4{
   font-family: termina, sans-serif;
@@ -56,7 +57,7 @@ h5{
 }
 
 /*Icons & Logos*/
-.socialicon, .MenuIcon, .websiteaddress{
+.socialicon, .websiteaddress{
   height: 24px;
   stroke:#FFFEFC;
   width: 24px;
@@ -64,10 +65,17 @@ h5{
   stroke-width: 1px;
 }
 
+.MenuIcon{
+  height: 38px;
+  stroke:#FFFEFC;
+  width: 38px;
+  color:#FFFEFC;
+  stroke-width: 1px;
+}
+
 .HeroImage{
   width:220px;
   height:220px;
-  margin-bottom:70px;
   margin-top:5%;
 }
 .FooterLogo{
@@ -87,7 +95,7 @@ header{
 
 }
 li{
-  display: inline-block;
+  display:block;
   padding-right: 20px;
   vertical-align: middle;
 }
@@ -99,16 +107,43 @@ li{
   padding-bottom: 300px;
 }
 .homepagehero{
-  background: linear-gradient(231.87deg, #F3E9DC -75.26%, rgba(103, 111, 143, 0.89) 50.72%, #F3E9DC 178.06%);;
+  background: linear-gradient(231.87deg, #F3E9DC -75.26%, rgba(103, 111, 143, 0.89) 50.72%, #F3E9DC 178.06%);
+  height:1000px;
+  margin-bottom: 240px;
 }
 
+.AboutDown{
+  align-content: center;
+  color:#BCD8C1;
+  position: relative;
+  text-align: center;
+  top: -125px;
+}
+.WorkRight{
+  color:#BCD8C1;
+  float: right;
+  left:-50px;
+  position: relative;
+  top: -750px;
+  transform: rotate(-90deg);
+  vertical-align: middle;
+}
+
+.ContactInfo{
+  display: inline;
+}
 
 /*About Page*/
 .Biography{
   width: 564px;
+  margin:0 0 0 290px;
 }
 .FreelanceWork, .Experience, .Education, .Skills{
   width: 413px;
+}
+
+.Perks{
+  display: inline-block;
 }
 .accounting, .marketing{
   width:418px;
