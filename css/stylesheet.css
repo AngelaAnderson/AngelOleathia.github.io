@@ -5,11 +5,11 @@
 
 /*Typography and Font Size*/
 html{
-  font-size: 12px;
+  font-size: 14px;
   font-family: input-serif, serif;
   font-weight: 200;
   font-style: normal;
-  line-height: 180%;
+  line-height: 150%;
   color: #313638;
 }
 h1{
@@ -43,18 +43,27 @@ h4{
   font-size: 20px;
 }
 h5{
+  display: inline-block;
   font-family: termina, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
 }
 .ResumeDetails{
-  font-size: 14px;
+  font-size: 12px;
 }
 .ResumeSubheading{
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
 }
+
+.ProfilePic{
+  margin-bottom: 20px;
+}
+.Skills{
+  margin-top: 80px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*Icons & Logos*/
 .socialicon, .websiteaddress{
@@ -63,8 +72,16 @@ h5{
   width: 24px;
   color:#FFFEFC;
   stroke-width: 1px;
+  vertical-align: middle;
 }
-
+.socialicon{
+  display: flex;
+  margin-right: 15px;
+}
+li{
+  display:block;
+  vertical-align: middle;
+}
 .MenuIcon{
   height: 38px;
   stroke:#FFFEFC;
@@ -73,14 +90,29 @@ h5{
   stroke-width: 1px;
 }
 
+.socialiconsm{
+  stroke:#FFFEFC;
+  background-image:linear-gradient(240.83deg, #F3E9DC -75.26%, rgba(103, 111, 143, 0.89) 50.72%, #F3E9DC 178.06%);
+  height: 35px;
+  width: 35px;
+  border-radius: 2px;
+  vertical-align: middle;
+  padding: 3px;
+  margin: 0 5px 10px 0;
+}
+
 .HeroImage{
   width:220px;
   height:220px;
   margin-top:5%;
 }
-.FooterLogo{
-  float: left;
+.Calculator, .Chart{
+  width:95px;
+  height:100px;
+  fill: #676F8F;
 }
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 /*Remove Bullet Points from UL*/
 ul{
   list-style-type: none;
@@ -94,22 +126,19 @@ header{
   padding-top: 2%;
 
 }
-li{
-  display:block;
-  padding-right: 20px;
-  vertical-align: middle;
-}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*Homepage*/
 .hero{
   display: block;
-  text-align: center;
   padding-bottom: 300px;
+  text-align: center;
 }
 .homepagehero{
   background: linear-gradient(231.87deg, #F3E9DC -75.26%, rgba(103, 111, 143, 0.89) 50.72%, #F3E9DC 178.06%);
   height:1000px;
-  margin-bottom: 240px;
+  margin-bottom: 140px;
 }
 
 .AboutDown{
@@ -117,7 +146,7 @@ li{
   color:#BCD8C1;
   position: relative;
   text-align: center;
-  top: -125px;
+  top: -145px;
 }
 .WorkRight{
   color:#BCD8C1;
@@ -129,27 +158,76 @@ li{
   vertical-align: middle;
 }
 
-.ContactInfo{
-  display: inline;
-}
-
 /*About Page*/
 .Biography{
-  width: 564px;
   margin:0 0 0 290px;
+  padding-bottom: 140px;
+  width: 564px;
 }
 .FreelanceWork, .Experience, .Education, .Skills{
   width: 413px;
 }
 
+.EducationHeading, .SkillsHeading{
+  width: 272px !important;
+}
+
+.accounting, .marketing{
+  align-items: center;
+  width:418px;
+  display: inline-block;
+  text-align: center;
+  margin: 5% 20px; 5% 20px;
+
+  align-content: center;
+}
+
+.resume{
+  background: linear-gradient(231.87deg, #F3E9DC -75.26%, rgba(103, 111, 143, 0.89) 50.72%, #F3E9DC 178.06%);
+  color:#FFFEFC;
+  margin-bottom: 140px;
+  align-items: center;
+}
+.column{
+  float: left;
+  width: 450px;
+  margin: 98px 20px 78px 90px;
+  align-content: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+hr{
+  color:#BCD8C1;
+}
 .Perks{
+  display: block;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.SocialLinksDesktop, .Biography{
   display: inline-block;
 }
-.accounting, .marketing{
-  width:418px;
-  text-align: center;
-  margin-right: 20px;
+
+.SocialLinksDesktop{
+  margin:0 0 0 185px;
+  vertical-align:top;
+  margin-bottom:
 }
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*Project Pages*/
  .VerticalLine {
@@ -159,6 +237,8 @@ li{
   width: 460px;
   height:310px;
 }
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*Footer*/
 .footer{
