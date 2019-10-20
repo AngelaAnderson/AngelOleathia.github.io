@@ -5,23 +5,32 @@
     <meta name="author" content="Angel Anderson">
     <meta name="keywords" content="cloud storage, crm system, user survey, ui design ">
     <meta name="description" content="Diving in the creative process of the desktop and mobile cloud storage application,Central.">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://use.typekit.net/mvj1djm.css">
   </head>
 
   <body>
-    <!-- Header Image-->
-    <img src="/Assets/Images/central.jpg" alt="Angel Oleathia Logo White" style="width:100%;">
-    <h1>Central</h1>
+
     <!--Navigation Menu-->
     <header id="nav">
-      <nav>
+      <div class="NavHeader" style="background-image: url('/Assets/Icons/AO Logo White.svg');">
         <ul>
-          <li><img src="/Assets/Icons/AO Logo White.svg" alt="Angel Oleathia Logo White" style="width:37px;height:37px;"></li>
-          <li><a href="#">ANGEL OLEATHIA</a></li>
-          <li><img src="/Assets/Icons/menu.svg" alt="Menu Icon" style="width:37px;height:37px;"></li>
+            
+            <h4 class="LogoName WhiteText" href="#">ANGEL OLEATHIA</h4>
         </ul>
-      </nav>
+        <!--Menu Icon-->
+        <svg class="MenuIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather
+        feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line
+        x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </div>
+        <!-- Header Image-->
+        <img src="/Assets/Images/central.jpg" alt="Angel Oleathia Logo White">
+        <h1 class="ProjectHeaderText">Central</h1>
     </header>
+
+
 
     <main>
       <!--Project Overview-->
@@ -50,17 +59,20 @@
           as categories, tags, groups etc.), create content, and upload files.
         </p>
       </div>
-      <div class="solution">
-        <h2>Solution</h2>
-        <p>
-          The solution is Central. Central is a cloud storage and organization workspace that
-          provides professional creatives with a convenient solution to managing projects and
-          working relationships. and upload files.
-        </p>
-      </div>
 
       <!--Live Prototype-->
-      <div>
+      <div class="iframe">
+        <div class="solution">
+          <h2>Solution</h2>
+          <p>
+            The solution is Central. Central is a cloud storage and organization workspace that
+            provides professional creatives with a convenient solution to managing projects and
+            working relationships. and upload files.
+          </p>
+        </div>
+        <div class="iframeCode">
+          <iframe style="border: none;" width="1150" height="620" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FR5Ezz0dgOzVQasmCc1c57I%2FCloud-Storage-HiFi-Mock-Up-Final%3Fnode-id%3D4%253A5%26viewport%3D543%252C-64%252C0.023721372708678246%26scaling%3Dmin-zoom" allowfullscreen></iframe>
+        </div>
       </div>
 
       <!--Research-->
@@ -95,6 +107,7 @@
 
       <!--Design Process-->
       <div class="UserStories">
+        <div class="UserStoriesText">
         <h2>
           User Stories
         </h2>
@@ -125,40 +138,45 @@
             </p>
           </li>
         </ul>
-        <p>Sharing Files Userflow:</p>
       </div>
-      <img src="/Assets/Images/Central Userflow.svg" alt="Userflow for File Sharing">
+      </div>
+
+      <img class="CenteredImage" src="/Assets/Images/Central Userflow.svg" alt="Userflow for File Sharing">
 
       <!--Branding-->
       <div class="Branding">
-        <h2>Branding</h2>
-        <p>
-          Central inspires productivity and motivates creativity as a luxury online
-          workspace and data storage solution. I've chosen to communicate that essence
-          of value in the color pallet by using a dark grayish-blue, white, and a sharp
-          pop of red as my primary colors. The brand itself aims to motivate users to
-          produce high quality work (red) and inspire confidence as if their creations
-          are worth millions (dark grayish-blue).
-        </p>
-        <p>
-          While pondering the ideal typography for this project, I knew I wanted to
-          incorporate thin, san serif fonts and shapes created from thin stokes into the
-          design to keep the overall aesthetic simplistic. I also wanted the font to
-          metaphorically connect back to the theme of creativity. In the end, I chose
-          ParalucentStencil Light as my primary font to be used in the logo. Though
-          ParalucentStencil communicates the theme of the brand well, the font is too
-          overpowering and overwhelming to used on text heavy pages. Thus, I also chose
-          Monsterrat Light to be used as headings and Acumin Pro Regular to be used for
-          the body text. All three fonts paired well, eliciting a modern and professional
-          appearance.
-        </p>
+        <div class="BrandingContent">
+          <h2>Branding</h2>
+          <p>
+            Central inspires productivity and motivates creativity as a luxury online
+            workspace and data storage solution. I've chosen to communicate that essence
+            of value in the color pallet by using a dark grayish-blue, white, and a sharp
+            pop of red as my primary colors. The brand itself aims to motivate users to
+            produce high quality work (red) and inspire confidence as if their creations
+            are worth millions (dark grayish-blue).
+          </p>
+          <p>
+            While pondering the ideal typography for this project, I knew I wanted to
+            incorporate thin, san serif fonts and shapes created from thin stokes into the
+            design to keep the overall aesthetic simplistic. I also wanted the font to
+            metaphorically connect back to the theme of creativity. In the end, I chose
+            ParalucentStencil Light as my primary font to be used in the logo. Though
+            ParalucentStencil communicates the theme of the brand well, the font is too
+            overpowering and overwhelming to used on text heavy pages. Thus, I also chose
+            Monsterrat Light to be used as headings and Acumin Pro Regular to be used for
+            the body text. All three fonts paired well, eliciting a modern and professional
+            appearance.
+          </p>
+        </div>
+      <div class="BrandingImages">
+        <img src="/Assets/Images/Central-Branding.svg" alt="Central Branding Guide">
+        <img src="/Assets/Images/Central-Sketches.png" alt="Central Branding Sketches">
       </div>
-      <img src="/Assets/Images/Central-Branding.svg" alt="Central Branding Guide">
-      <img src="/Assets/Images/Central-Sketches.png" alt="Central Branding Sketches">
+      </div>
 
       <!--User Testing-->
       <div class="UserTesting">
-        <div class="Homepage">
+        <div class="Central-Homepage">
           <h2>User Testing: Homepage</h2>
           <p>
             Given the array of information being displayed, the dashboard needed to have a
@@ -169,7 +187,7 @@
           <img src="/Assets/Images/Home Page V2.svg" alt="Homepage First Mock-up">
           <img src="/Assets/Images/Home Page Mock-Up.svg" alt="Homepage Final Design">
         </div>
-        <div>
+        <div class="Central-Dashboard">
           <h2>User Testing: Dashboard</h2>
           <p>
             Given the array of information being displayed, the dashboard needed to have a
@@ -198,26 +216,30 @@
       </div>
     </main>
     <!--Footer-->
-    <footer id="footer">
-      <ul>
-        <li>
-          <img src="/Assets/Icons/AO Logo White.svg" alt="Angel Oleathia Logo White" style="width:8px;height:8px;">
-        </li>
-        <li>
-          <p class="websiteaddress">angeloleathia.com</p>
-        </li>
-        <li>
-          <img src="/Assets/Icons/mail.svg" alt="Angel Oleathia Email" class="socialiconsm">
-        </li>
-        <li>
-          <img src="/Assets/Icons/instagram.svg" alt="Angel Oleathia Instagram" class="socialiconsm">
-        </li>
-        <li>
-          <img src="/Assets/Icons/linkedin.svg" alt="Angel Oleathia LinkedIn" class="socialiconsm">
-        </li>
-        <li>
-          <img src="/Assets/Icons/github.svg" alt="Angel Oleathia GitHub" class="socialiconsm">
-        </li>
+    <footer id="footer" class="footer">
+      <img src="/Assets/Icons/AO Logo White.svg" alt="Angel Oleathia Logo White" style="width:38px;height:38px;padding-top:4px;">
+      <p class="websiteaddress">angeloleathia.com</p>
+      <ul class="socialiconfoorter">
+          <svg class="socialicon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+          </path><polyline points="22,6 12,13 2,6"></polyline></svg>
+
+          <svg class="socialicon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather
+          feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z">
+          </path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg>
+
+          <svg class="socialicon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4"
+          height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+
+          <svg class="socialicon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+          <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77
+          5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44
+          0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
       </ul>
     </footer>
   </body>
