@@ -141,10 +141,38 @@ ul{
   vertical-align: middle;
   display: inline;
 }
-.ProjectHeaderImage{
-  width:inherit;
+.ProjectHeaderImageCentral{
+  height:800px;
+  padding-top: 5%;
+  background-image:url("../Assets/Images/central.png"), linear-gradient(208.35deg, #2D3142 0%, #626571 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
 }
-
+.ProjectHeaderImageGBT{
+  height:800px;
+  padding-top: 5%;
+  background-color: #082462;
+  background-image:url("../Assets/Images/gbt.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.ProjectHeaderImageBusyBus{
+  height:800px;
+  padding-top: 5%;
+  background-image:url("../Assets/Images/busybus.png"), linear-gradient(180deg, #153243 0%, #086F66 69.27%);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.ProjectHeaderText{
+  position:absolute;
+  text-align: center;
+  top:40%;
+  width: 100%;
+  color: #FFFEFC !important;
+}
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*Homepage*/
@@ -293,9 +321,6 @@ hr{
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*Case Study Pages*/
-.ProjectHeaderText{
-  position: relative;
-}
 .summary, .solution, .Branding, .CompetAnal, .Central-Homepage, .Central-Dashboard{
   margin:0 0 10% 10%;
   width: 450px;
@@ -354,14 +379,6 @@ hr{
   display: inline-block;
   width: 417px;
   margin-bottom: 150px;;
-}
-
-.ProjectHeaderText{
-  position:absolute;
-  text-align: center;
-  top:50%;
-  width: 100%;
-  color: #FFFEFC !important;
 }
 
 .UserTesting{
