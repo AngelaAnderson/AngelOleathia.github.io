@@ -11,7 +11,8 @@ html{
   font-style: normal;
   line-height: 170%;
   color: #313638;
-  background: #FDFAF6;
+  background:#FDFAF6;
+  overflow-x: hidden;
 }
 h1{
   font-family: termina, sans-serif;
@@ -93,7 +94,8 @@ li{
   width: 38px;
   color:#FFFEFC;
   stroke-width: 1px;
-  margin-top: 1%;
+  margin-top:.75%;
+  margin-left: 80%;
 }
 
 .socialiconsm{
@@ -125,16 +127,24 @@ ul{
 }
 
 /*Header Design*/
-
+.header{
+  position: absolute;
+  top: 30px;
+}
 .NavHeader{
   display: flex;
   justify-content: space-between;
   margin: 2% 143px 20px 143px;
+  background-color: blue;
 }
 .LogoName{
   vertical-align: middle;
   display: inline;
 }
+.ProjectHeaderImage{
+  width:inherit;
+}
+
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*Homepage*/
@@ -366,9 +376,6 @@ hr{
   width:3%;
   margin: 1% 40% 1% 5%;
   vertical-align: top;
-}
-header{
-
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
