@@ -135,7 +135,6 @@ ul{
   vertical-align: middle;
   display: inline;
 }
-
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*Homepage*/
@@ -155,7 +154,7 @@ ul{
   color:#BCD8C1;
   position: relative;
   text-align: center;
-  top: -145px;
+  top: -80px;
 }
 .WorkRight{
   color:#BCD8C1;
@@ -291,12 +290,17 @@ hr{
   margin:0 0 10% 10%;
   width: 450px;
 }
+.Role{
+  margin:0 0 10% 10%;
+  width: 100%;
+  bottom:-100px;
+}
 
 .problem, .UserSurvey{
   margin:0 0 5% 50%;
   width: 442px;
 }
-.iframe{
+.iframeCentral{
   width: 100%;
   height: 5%;
   background: linear-gradient(205.48deg, #2D3142 0%, #626571 100%);
@@ -348,6 +352,23 @@ hr{
   top:50%;
   width: 100%;
   color: #FFFEFC !important;
+}
+
+.UserTesting{
+  width: 75%;
+  height: 100%;
+  background: linear-gradient(205.48deg, #2D3142 0%, #626571 100%);
+  margin: auto;
+  padding: 5%;
+}
+.IBImages{
+  display: inline-block;
+  width:3%;
+  margin: 1% 40% 1% 5%;
+  vertical-align: top;
+}
+header{
+
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
