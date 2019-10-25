@@ -11,23 +11,24 @@
   </head>
 
   <body>
-    <div class="ProjectHeaderImageCentral">
+    <header id="nav" class="NavHeader">
+        <ul class="navbar">
+          <div class="LogoPair">
+            <img class="LogoName" src="/Assets/Icons/AO Logo White.svg" alt="Angel Oleathia Logo White" style="width:37px;height:37px;">
+            <h4 class="LogoName WhiteText" href="#">ANGEL OLEATHIA</h4>
+          </div>
+          <!--Menu Icon-->
+          <svg class="MenuIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather
+          feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line
+          x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </ul>
+    </header>
+
+    <div class="ProjectHeaderImageCentral headerimage">
       <!-- Header Image-->
-
-      <h1 class="ProjectHeaderText">Central</h1>
-
+      <h1>Central</h1>
         <!--Navigation Menu-->
-        <header id="nav" class="NavHeader">
-            <ul class="header">
-                <img class="LogoName" src="/Assets/Icons/AO Logo White.svg" alt="Angel Oleathia Logo White" style="width:37px;height:37px;">
-                <h4 class="LogoName WhiteText" href="#">ANGEL OLEATHIA</h4>
-            </ul>
-            <!--Menu Icon-->
-            <svg class="MenuIcon header" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather
-            feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line
-            x1="3" y1="18" x2="21" y2="18"></line></svg>
-        </header>
     </div>
 
 
@@ -76,36 +77,45 @@
 
       <!--Research-->
       <div class="CompetAnal">
-        <h2>Competitive Analysis</h2>
-        <p>
-          The project was kicked off by conducting a competitive analysis of key market competitors
-          consisting of: Google Drive, Drop Box, and Evernote. While each of these competitors have
-          numerous strengths that are advantageous for their brand, an analysis of their weaknesses
-          presented an opportunity to create unique features specific to this new cloud storage
-          solution. Some of the unique opportunities posed from the competitive analysis included:
-          uploading and streaming music and video files, advanced organization, use of filters and
-          tags, uploading file in the background, and Sorting files by date.
-        </p>
+        <div class="CompetAnalContent">
+          <h2>Competitive Analysis</h2>
+          <p>
+            The project was kicked off by conducting a competitive analysis of key market competitors
+            consisting of: Google Drive, Drop Box, and Evernote. While each of these competitors have
+            numerous strengths that are advantageous for their brand, an analysis of their weaknesses
+            presented an opportunity to create unique features specific to this new cloud storage
+            solution. Some of the unique opportunities posed from the competitive analysis included:
+            uploading and streaming music and video files, advanced organization, use of filters and
+            tags, uploading file in the background, and Sorting files by date.
+          </p>
+        </div>
+        <div class="CompetAnalImages">
+          <img src="/Assets/Images/Central - SWOT.svg" alt="Central Compeitive Analysis">
+        </div>
       </div>
-      <img src="/Assets/Images/Central - SWOT.svg" alt="Central Compeitive Analysis">
-      <img src="/Assets/Images/Central-Data.svg" alt="Cloud Storage User Data">
+
       <div class="UserSurvey">
-        <h2>User Survey</h2>
-        <p>
-          After conducting market research, I conducted a user survey which aided in developing user
-          personas. In total, 18 respondents completed the survey, providing a reasonable amount of
-          data to analyze. Almost 95% of respondents reported that they currently use or have you used
-          Cloud Storage to store data. The 12 respondents stated they utilize Google Drive, 7 respondents
-          indicated they use iCloud, 5 indicated they use DropBox, and another 5 stated they use Microsoft
-          One Drive. The majority of respondents indicated they use cloud storage almost every day for
-          personal use, however, about 24% said they mainly use cloud storage for work. This data not only
-          confirmed that cloud storage services are in high demand, but it also identified a niche market
-          of professionals who could potentially benefit from this solution.
-        </p>
+        <div class="UserSurveyImages">
+          <img src="/Assets/Images/Central-Data.svg" alt="Cloud Storage User Data">
+        </div>
+        <div class="UserSurveyContent">
+          <h2>User Survey</h2>
+          <p>
+            After conducting market research, I conducted a user survey which aided in developing user
+            personas. In total, 18 respondents completed the survey, providing a reasonable amount of
+            data to analyze. Almost 95% of respondents reported that they currently use or have you used
+            Cloud Storage to store data. The 12 respondents stated they utilize Google Drive, 7 respondents
+            indicated they use iCloud, 5 indicated they use DropBox, and another 5 stated they use Microsoft
+            One Drive. The majority of respondents indicated they use cloud storage almost every day for
+            personal use, however, about 24% said they mainly use cloud storage for work. This data not only
+            confirmed that cloud storage services are in high demand, but it also identified a niche market
+            of professionals who could potentially benefit from this solution.
+          </p>
+      </div>
       </div>
 
       <!--Design Process-->
-      <div class="UserStories">
+      <div class="UserStoriesCentral">
         <div class="UserStoriesText">
         <h2>
           User Stories
@@ -137,13 +147,13 @@
             </p>
           </li>
         </ul>
-      </div>
+        </div>
       </div>
 
-      <img class="CenteredImage" src="/Assets/Images/Central Userflow.svg" alt="Userflow for File Sharing">
+      <img class="Userflow" src="/Assets/Images/Central Userflow.svg" alt="Userflow for File Sharing">
 
       <!--Branding-->
-      <div class="Branding">
+      <section class="Branding">
         <div class="BrandingContent">
           <h2>Branding</h2>
           <p>
@@ -171,10 +181,10 @@
         <img src="/Assets/Images/Central-Branding.svg" alt="Central Branding Guide">
         <img src="/Assets/Images/Central-Sketches.png" alt="Central Branding Sketches">
       </div>
-      </div>
+    </section>
 
       <!--User Testing-->
-      <div class="UserTesting WhiteText">
+      <section class="UserTesting WhiteText">
         <div class="Central-Homepage">
           <h2>User Testing: Homepage</h2>
           <p>
@@ -182,10 +192,19 @@
             very clean and simple aesthetic. Getting to the final solution involved serious
             evolution from my original wireframe.
           </p>
-          <div class="IBImages IBImagesHomePage"><img src="/Assets/Images/Home Page Wire Frame.svg" alt="Homepage Wireframe"></div>
-          <div class="IBImages IBImagesHomePage"><img src="/Assets/Images/Home Page V2.svg" alt="Homepage First Mock-up"></div>
-          <div class="IBImages IBImagesHomePage"><img src="/Assets/Images/Home Page Mock-Up.svg" alt="Homepage Final Design"></div>
         </div>
+        <div class="row">
+          <div class="column">
+            <img src="/Assets/Images/Home Page Wire Frame.svg" alt="Homepage Wireframe">
+          </div>
+          <div class="column">
+            <img src="/Assets/Images/Home Page V2.svg" alt="Homepage First Mock-up">
+          </div>
+          <div class="column">
+            <img src="/Assets/Images/Home Page Mock-Up.svg" alt="Homepage Final Design">
+          </div>
+        </div>
+
         <div class="Central-Dashboard">
           <h2>User Testing: Dashboard</h2>
           <p>
@@ -193,13 +212,22 @@
             very clean and simple aesthetic. Getting to the final solution involved serious
             evolution from my original wireframe.
           </p>
-          <div class="IBImages IBImagesDashboard"><img src="/Assets/Images/Dashboard Wireframe.svg" alt="Dashboard Wireframe"></div>
-          <div class="IBImages IBImagesDashboard"><img src="/Assets/Images/Dashboard V1.svg" alt="Dashboard First Mock-up"></div>
-          <div class="IBImages IBImagesDashboard"><img src="/Assets/Images/Dashboard Mock-Up.svg" alt="Dashboard Final Design"></div>
         </div>
-      </div>
+          <div class="row">
+            <div class="column">
+              <img src="/Assets/Images/Dashboard Wireframe.svg" alt="Dashboard Wireframe">
+            </div>
+            <div class="column">
+              <img src="/Assets/Images/Dashboard V1.svg" alt="Dashboard First Mock-up">
+            </div>
+            <div class="column">
+              <img src="/Assets/Images/Dashboard Mock-Up.svg" alt="Dashboard Final Design">
+            </div>
+          </div>
+
+      </section>
       <!--Conclusion-->
-      <div class="Conclusion">
+      <section class="Conclusion">
         <h2>Conclusion</h2>
         <p>
           The research done in this project to create this solution has taught me a lot,
@@ -212,7 +240,7 @@
            network feature. However, I find the CRM aspect of the solution a helpful tool
            that would be of value to professional creatives.
         </p>
-      </div>
+      </section>
     </main>
     <!--Footer-->
     <footer id="footer" class="footer">
