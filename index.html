@@ -11,17 +11,23 @@
   </head>
 
   <body>
-  <div class="homepage">
-<!--Navigation Menu-->
-  <section id="hero" class="homepagehero">
-    <header id="nav">
-      <nav>
-        <svg class="MenuIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather
-        feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line
-        x1="3" y1="18" x2="21" y2="18"></line></svg>
-      </nav>
-    </header>
+
+      <div class="homepage">
+      <section class="homepagehero">
+          <nav class="MenuIcon" >
+            <label for="nav-toggle" class="nav-toggle-label">
+              <span><svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather
+              feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line
+              x1="3" y1="18" x2="21" y2="18"></line></svg></span>
+            </label>
+            <input id="nav-toggle" type="checkbox" class="nav-toggle">
+            <ul class="MenuItems">
+              <li><a href="#">Home</a></li>
+              <li><a href="#"></a>About</li>
+              <li><a href="#">Projects</a></li>
+            </ul>
+          </nav>
 
 
 <!--Hero Image and Info-->
@@ -115,7 +121,7 @@
       <section id="Resume">
         <div class="resume row">
           <!--Profile Picture-->
-          <div class="column">
+          <div class="ResumeColumn">
             <img class="ProfilePic" src="/Assets/Images/Profile Picture.jpg" alt="Angel Anderson" style="width:418px;height:342px;">
             <!--Freelance Work-->
             <div class="FreelanceWork">
@@ -145,7 +151,7 @@
           </div>
 
           <!--Experience-->
-          <div class="Experience column">
+          <div class="Experience ResumeColumn">
             <h2 class="ResumeHeading">Experience</h2>
             <hr size="2px;" width="404px;" align="left">
             <div label="Experience 1">
@@ -183,10 +189,10 @@
             </div>
           </div>
           <!--Education-->
-          <div class="Education column">
+          <div class="Education ResumeColumn">
             <div label="Education 1">
               <h2 class="EducationHeading">Education</h2>
-              <hr class="EducationHeading" size="2px;" width="404px;" align="left">
+              <hr class="EducationHeading" size="2px;" width="350px;" align="left">
               <h6 class="ResumeSubheading">Bloc.io | Oct 2019</h6>
               <p class="ResumeDetails">
                 Certificate in UX / UI Frontend Development
@@ -202,7 +208,7 @@
           <!--Skills-->
           <div class="Skills">
             <h2 class="Heading">Skills</h2>
-            <hr class="EducationHeading"size="2px;" width="404px;" align="left">
+            <hr class="EducationHeading"size="2px;" width="350px;" align="left">
             <div label="SkillsList">
               <p class="ResumeDetails">
                 HTML 5 & CSS<br>jQuery & Javascript<br>Copywritting<br>User Research
@@ -215,7 +221,7 @@
 
       <!--About Me Section Starts-->
       <section id="Perks">
-        <h2 class="PageHeader">Being an Account / Marketer / UX Designer has its perks!</h2>
+        <h2 class="HomePageHeader">Being an Account / Marketer / UX Designer has its perks!</h2>
         <div class="Perks">
           <div class="accounting">
             <!--SVG For Calculator Icon-->
@@ -261,7 +267,7 @@
 
       <!--Contact Form-->
       <section id="contact">
-        <h2 class="PageHeader">Let's Connect</h2>
+        <h2 class="HomePageHeader">Let's Connect</h2>
         <div class="iframe">
           <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.14/iframeResizer.min.js"></script>
           <iframe src="https://hello.dubsado.com:443/public/form/view/5ce969bc6daa7f3ca3c5f4a2" frameborder="0" style="width:1px; min-width:100%;"></iframe>
