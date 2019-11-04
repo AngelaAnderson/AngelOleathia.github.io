@@ -404,7 +404,7 @@ hr{
   padding: 5% 0% 5% 0%;
 }
 .DonationForm img{
-  width: 50%;
+  width: 70%;
   height: 50%;
 }
 .DonationForm{
@@ -446,6 +446,15 @@ hr{
 
 .CentralMock-Ups{
   margin: 0% 0% 0% 12%;
+}
+.CentralMock-Ups img{
+  width: 80%;
+}
+.CompetAnalImages img{
+  width: 30%;
+}
+.UserSurveyImages img{
+  width: 60%;
 }
 .sketches{
   margin-left: 12%;
