@@ -517,11 +517,12 @@ hr{
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*Media Queries*/
 
-@@media (min-width: 650px){
-  .MenuIcon, .hero, .homepagehero, .AboutDown, .WorkRight{
-    display: none;
-  };
-  .HomePageHeader{
-    font-size: 14px;
+@media (min-width: 650px){
+  .HeroImage{
+    width: 28px;
+    height: 28px;
+  }
+  h3{
+    font-size: 12px;
   }
 }
